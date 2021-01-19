@@ -4,13 +4,13 @@ var tom, tomImg1,tomImg2;
 var jerry, jerryImg1,jerryImg2;
 
 function preload() {
-    bg = loadImage("images/garden.jpg");
-    tomImg1= loadAnimation("images/tomOne_new.png");
-    tomImg2=loadAnimation("image/tomTwo.png","image/tomThree.png");
-    tomImg3= loadAnimation("image/tomFour.png");
-    jerryImg1=loadAnimation("images/jerryOne_new.png");
-    jerryImg2= loadAnimation("images/jerryTwo_new.png","images/jerryThree_new.png");
-    jerryImg3=loadAnimation("images/jerryFour_new.png");
+    bg = loadImage("garden.jpg");
+    tomImg1= loadAnimation("tomOne_new.png");
+    tomImg2=loadAnimation("tomTwo.png","tomThree.png");
+    tomImg3= loadAnimation("tomFour.png");
+    jerryImg1=loadAnimation("jerryOne_new.png");
+    jerryImg2= loadAnimation("jerryTwo_new.png","jerryThree_new.png");
+    jerryImg3=loadAnimation("jerryFour_new.png");
 
 }
 
